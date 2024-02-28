@@ -1,0 +1,276 @@
+.container
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(48, 46, 46);
+  color: white;
+
+  display: flex;
+  align-items: center;
+}
+
+.form{
+  /* background-color: red; */
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+  margin: auto;
+  row-gap: 15px;
+  align-items:center;
+  justify-content: center;
+  background-color:rgba(0,0,0,0.6);
+  padding: 20px;
+  
+}
+
+.inp{
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  text-indent: 20px;
+  outline: none;
+  border: 1px solid gray;
+}
+
+.btn{
+  padding: 10px 50px;
+  border-radius: 5px;
+  background-color: rgb(73, 81, 243);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.btn-hover
+{
+  background-color: rgb(48, 121, 230);
+}
+
+a{
+  color:rgb(48, 121, 230) ;
+  text-decoration: none;
+}
+
+.not-found
+{
+  width:100%;
+  text-align: center;
+}
+
+.success
+{
+  background-color: lightgreen;
+  color:green;
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+.error
+{
+  background-color: rgb(250, 133, 133);
+  color:rgb(214, 1, 51);
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+
+.invisible-msg{
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0;
+}
+
+
+/* track page css */
+
+.search{
+  width: 100%;
+  padding: 30px 40px;
+  
+  /* background-color: gray; */
+
+}
+
+.track-container
+{
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.search-inp
+{
+ 
+  width: 100%;
+  height: 45px;
+  text-indent:10px ;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 18px;
+}
+
+.search-results
+{
+  width:100%;
+  padding: 10px 5px;
+  background-color: gray;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.search
+{
+  position: relative;
+}
+
+.food{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  padding-top: 0px;
+  /* background-color: rgb(1, 148, 99); */
+  display: flex;
+  flex-wrap: wrap;
+  row-gap:5px;
+}
+
+.food-img
+{
+  width: 100%;
+  height: 210px;
+  /* background-color: azure; */
+  overflow: hidden;
+  border-radius:5px;
+}
+
+.food-image{
+  width:100%;
+}
+
+.nutrient{
+  width: 50%;
+  padding: 10px 0px;
+  /* background-color: rgb(22, 194, 189); */
+ 
+}
+
+.track-control{
+  display: flex;
+  width:100%;
+  column-gap: 2%;
+}
+
+.track-control >.imp
+{
+  width: 68%;
+
+}
+ 
+.track-control >.btn{
+  width: 30%;
+  padding: 10px 0px;
+}
+
+.diet-container
+{
+  display: flex;
+  align-items: flex-start;
+  row-gap:10px;
+
+  flex-direction: column;
+  
+}
+
+.item{
+  padding-top: 10px;
+  width: 90%;
+  height: 40%;
+  padding-left: 20px;
+  margin: 10px;
+  background-color: rgb(0, 27, 35);
+  
+}
+
+.login-box{
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.bg-img
+{
+  width: 90%;
+  height: 80%;
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://media.istockphoto.com/id/870173346/photo/healthy-food.jpg?s=612x612&w=0&k=20&c=g6ewhe862ZaSQevMw7VS-VJzwXXEHL6Gqpr-fEDx0jY=);
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-container {
+  background-color: hsl(0, 0%, 0%);
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 20%;
+  }
+
+.navigation-list {
+  list-style-type: none;
+  padding: 8px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.nav-img
+{
+  width: 100%;
+  background-image: url(https://media.licdn.com/dms/image/C4E12AQH7bCy9uNkMiA/article-cover_image-shrink_600_2000/0/1617640185963?e=2147483647&v=beta&t=l2UrrmCuG-VsTEKhsyK2j-5bxMJ7U4D5jwza73HPWw0);
+  background-color: #fff;
+}
+
+.navigation-link {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 4px ;
+  /* border-radius: 5px; */
+  transition: background-color 0.3s;
+}
+
+.navigation-link:hover {
+  background-color: #454343;
+  border-radius: 2px;
+}
+
+.text
+{
+  width: 60%;
+  margin:50px;
+  padding-left: 1px;
+  text-indent: 3px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 50%;
+ background-color: rgb(43, 42, 42);
+ border-radius: 3px;
+ border: solid 0.5px ;
+}
+
+.date{
+  height: 50px;
+  margin-left: 15px;
+}
